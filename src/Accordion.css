@@ -1,0 +1,15 @@
+.container {
+  display: flex; /* Use flexbox layout */
+}
+
+.products-container {
+  flex: 7; /* Take up 70% of the width */
+}
+
+.accordion-container {
+  flex: 2; /* Take up 20% of the width */
+}
+
+.products-title {
+  margin-bottom: 20px; /* Add margin to the bottom */
+}
