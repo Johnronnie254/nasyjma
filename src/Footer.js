@@ -7,7 +7,7 @@ export default function Footer(){
 
 
     return (
-        <footer className="main-footer" style={{ background: 'orange', marginTop: '40px' }}>
+        <footer className="main-footer" style={{ background: '#231834', marginTop: '70px' , color: 'white'}}>
     <div className="footer-middle">
         <Container>
             <div className="row justify-content-center">
@@ -32,11 +32,18 @@ export default function Footer(){
 
                 <div className="col-md-4">
     <h4>About Us</h4>
+    <h3>Welcome to Nasyjma Autos</h3>
     <p>
-        At Get Towed, our mission is to assist individuals navigating the aftermath of car accidents. We understand the stress and inconvenience that come with not being able to locate your vehicle after a tow. That's why we've partnered with a network of reputable towing companies, ensuring that you can rely on us to recover your car swiftly and efficiently.
+        At Nasyjma Autos, we specialize in providing high-quality spare parts and accessories for Volkswagen, Mercedes-Benz, and Audi vehicles. Our mission is to ensure that your car remains in top condition by offering top-notch products and exceptional service.
+
+With a wide range of parts including engine components, brakes, suspension, lighting, interior and exterior accessories, we are your one-stop shop for all your automotive needs.
+
+Our dedicated team of professionals is here to assist you in finding the perfect parts for your vehicle. We are committed to providing excellent customer service and ensuring your complete satisfaction with every purchase.
     </p>
     <p>
-        Whether you need to pay the towing fee, retrieve your vehicle, or lodge a query about the towing process, our user-friendly platform has you covered. We're here to provide peace of mind and support during challenging times.
+       Choose Nasyjma Autos for reliable, top-quality parts and accessories for your Volkswagen, Mercedes-Benz, or Audi vehicle.
+
+Experience the difference with Nasyjma Autos today!
     </p>
 </div>
 
