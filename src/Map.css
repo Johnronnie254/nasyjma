@@ -1,0 +1,14 @@
+.map-container {
+  width: 100%; /* Width covers the entire length */
+  margin: 80px 0; /* 50px margin at the top and bottom */
+}
+
+.full-height-map {
+  height: 500px; /* Fixed height of 500px */
+}
+
+.header{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}

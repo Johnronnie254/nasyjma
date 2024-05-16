@@ -10,7 +10,7 @@ const TestimonialCarousel = () => {
                         <h3>Testimonials</h3>
                     </div>
                     <div className="col-md-12 d-flex justify-content-center">
-                        <h2>Here Feedback from Our Esteemed Clients</h2>
+                        <h2>Feedback from Our Esteemed Clients</h2>
                     </div>
                 </div>
             </div>
