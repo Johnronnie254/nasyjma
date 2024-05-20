@@ -8,7 +8,7 @@ function Models() {
   return (
     <div className="container">
       <div className="products-container">
-        <h2 className="products-title">Products</h2>
+        <h2 className="products-title">Popular Products</h2>
         
       </div>
       <div className="accordion-container">
@@ -25,6 +25,7 @@ function Models() {
                 electrical parts, we have you covered. Browse our selection and keep your Mercedes-Benz
                 running smoothly.
               </p>
+              <a href=''>Mercedes Benz Products</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -38,6 +39,7 @@ function Models() {
                 accessories, our range of Audi spare parts ensures that your vehicle remains in
                 top condition.
               </p>
+               <a href=''>Audi Products</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -50,6 +52,7 @@ function Models() {
                 Whether you need replacement parts for routine maintenance or upgrades for customization,
                 we have you covered. Browse our selection to find the perfect spare parts for your Volkswagen.
               </p>
+              <a href=''>VW Products</a>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

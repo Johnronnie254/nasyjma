@@ -1,22 +1,30 @@
 import NavBar from "./NavBar";
-import SearchBar from "./Search"
-import CarouselPage from "./Carousel";
-import Models from "./Models";
-import Footer from './Footer';
-import TestimonialCarousel from './Testimonial'
-import Map from "./Map";
+import Home from './Home'
+import Aboutus from "./AboutUs";
+import Contactus from "./Contactus";
+import Products from "./Product";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-    <NavBar />
-    <SearchBar/>
-    <CarouselPage />
-    <Models />
-    <TestimonialCarousel />
-    <Map />
-    <Footer />
+    <Router>
+        <div>
+          <NavBar />
+            <Routes>
+              <Route path="home" element={<Home />} />
+              <Route path="/aboutus" element={<Aboutus />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/contactus" element={<Contactus />} />
+
+
+            </Routes>
+
+        </div>
+    </Router>
+    
     </>
   );
 }

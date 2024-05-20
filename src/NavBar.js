@@ -13,10 +13,11 @@ export default function NavBar() {
         {/* Navbar items */}
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="#home" style={{ color: 'white' }}>Home</Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: 'white' }}>Products</Nav.Link>
-            <Nav.Link href="#aboutus" style={{ color: 'white' }}> About Us</Nav.Link>
-            <Nav.Link href="#contactus" style={{ color: 'white' }}>Contact Us</Nav.Link>
+            <Nav.Link href="home" style={{ color: 'white' }}>Home</Nav.Link>
+            <Nav.Link href="products" style={{ color: 'white' }}>Products</Nav.Link>
+            
+            <Nav.Link href="aboutus" style={{ color: 'white' }}>About Us</Nav.Link>
+            <Nav.Link href="contactus" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="#pricing" style={{ color: 'white' }}> <i className="fa fa-shopping-cart" aria-hidden="true"></i> Cart</Nav.Link>
           </Nav>
         </Navbar.Collapse>
