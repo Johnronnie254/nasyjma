@@ -8,7 +8,7 @@ import {
   MDBCardImage,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import './Popular'
+import './Popular.css'
 
 function Popularproduct() {
   return (

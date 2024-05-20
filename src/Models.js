@@ -11,6 +11,8 @@ function Models() {
       <div className="products-container">
         <h2 className="products-title">Popular Products</h2>
         <Popularproduct />
+        <Popularproduct />
+
       </div>
       <div className="accordion-container">
         <h2 className="brand-models-title">Brand Models</h2>
