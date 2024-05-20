@@ -3,13 +3,14 @@ import Accordion from 'react-bootstrap/Accordion';
 //import Card from 'react-bootstrap/Card';
 //import Button from 'react-bootstrap/Button';
 import './Accordion.css'; 
+import Popularproduct from './Popular Product';
 
 function Models() {
   return (
     <div className="container">
       <div className="products-container">
         <h2 className="products-title">Popular Products</h2>
-        
+        <Popularproduct />
       </div>
       <div className="accordion-container">
         <h2 className="brand-models-title">Brand Models</h2>
